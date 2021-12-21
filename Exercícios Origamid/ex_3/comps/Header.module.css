@@ -1,0 +1,22 @@
+.header {
+  background-color: cadetblue;
+  color: white;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 12vh;
+  width: 100vw;
+
+  margin-bottom: 2vh;
+}
+
+.header > a {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  
+  margin: 2%;
+}
