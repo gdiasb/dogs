@@ -1,0 +1,31 @@
+.card {
+  width: 80vw;
+
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-gap: 10px;
+
+  align-items: center;
+  justify-items: center;
+
+  margin-left: 10vw;
+  margin-top: 40vh;
+  margin-bottom: 10vh;
+
+  background-color: thistle;
+  text-align: center;
+}
+
+.span{
+  grid-column: span 3 / auto;
+}
+
+img {
+  width: 90%;
+
+  margin-top: 2rem;
+}
+
+.h1{
+  text-align: center;
+}
