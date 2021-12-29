@@ -9,6 +9,7 @@ function Product({ product }) {
       fetch('https://ranekapi.origamid.dev/json/api/produto/' + product)
         .then((response) => response.json())
         .then((json) => setData(json));
+        console.log(data)
     }
   }, [product]);
 
@@ -16,7 +17,7 @@ function Product({ product }) {
 
   return (
     <div>
-      <h1>{data.name}</h1>
+      <h1>{data.nome}</h1>
     </div>
   );
 }
